@@ -1,0 +1,15 @@
+name: orientation-filter
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - jupyterlab
+      - pandas
+      - starfile
+      - scipy
+      - seaborn
+      - ipympl
